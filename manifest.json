@@ -1,0 +1,18 @@
+    {
+      "manifest_version": 3,
+      "name": "My Simple Extension",
+      "version": "1.0",
+      "description": "A basic example of a Chrome extension.",
+      "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+          "1": "images/icon1.png",
+          "2": "images/icon2.png"
+        }
+      },
+      "icons": {
+        "1": "images/icon1.png",
+        "2": "images/icon2.png",
+        "3": "images/icon3.png"
+      }
+    }
