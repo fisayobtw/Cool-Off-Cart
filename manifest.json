@@ -1,18 +1,20 @@
-    {
-      "manifest_version": 3,
-      "name": "My Simple Extension",
-      "version": "1.0",
-      "description": "A basic example of a Chrome extension.",
-      "action": {
-        "default_popup": "popup.html",
-        "default_icon": {
-          "1": "images/icon1.png",
-          "2": "images/icon2.png"
-        }
-      },
-      "icons": {
-        "1": "images/icon1.png",
-        "2": "images/icon2.png",
-        "3": "images/icon3.png"
-      }
+{
+  "manifest_version": 3,
+  "name": "Cool-Off Cart",
+  "version": "1.0",
+  "description": "Helps you cool off before buying items from ads too quickly.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/icon16.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
     }
+  },
+  "icons": {
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  }
+}
+
